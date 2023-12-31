@@ -9,6 +9,7 @@ public class MethodChange2 {
         changeReference(dataA);
         System.out.println("메서드 호출 후: dataA.value=" + dataA.value);
         // 메서드 공부
+        // 잔디오류 수정
     }
        public static void changeReference(Data dataX) {
            dataX.value = 20;
