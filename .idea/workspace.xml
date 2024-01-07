@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="14d1e7d5-b859-4122-86c0-65cdd7aeaa7f" name="Changes" comment="메서드1 공부">
-      <change afterPath="$PROJECT_DIR$/src/ref/Method2.java" afterDir="false" />
+    <list default="true" id="14d1e7d5-b859-4122-86c0-65cdd7aeaa7f" name="Changes" comment="메서드 생성으로 코드 리팩토링">
+      <change afterPath="$PROJECT_DIR$/src/ref/InitData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ref/InitMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ref/Method1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ref/Method1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +77,20 @@
       <recent name="class1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Method2">
+  <component name="RunManager" selected="Application.InitMain">
+    <configuration name="InitMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ref.InitMain" />
+      <module name="java-basic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ref.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Method1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ref.Method1" />
       <module name="java-basic" />
@@ -130,26 +143,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VarChange2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ref.VarChange2" />
-      <module name="java-basic" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ref.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.InitMain" />
         <item itemvalue="Application.Method2" />
         <item itemvalue="Application.Method1" />
         <item itemvalue="Application.MethodChange2" />
         <item itemvalue="Application.MethodChange1" />
-        <item itemvalue="Application.VarChange2" />
       </list>
     </recent_temporary>
   </component>
@@ -167,7 +167,7 @@
       <workItem from="1704029205737" duration="68000" />
       <workItem from="1704108171412" duration="680000" />
       <workItem from="1704411520927" duration="3360000" />
-      <workItem from="1704587237240" duration="588000" />
+      <workItem from="1704587237240" duration="1039000" />
     </task>
     <task id="LOCAL-00001" summary="김영한 자바 study">
       <option name="closed" value="true" />
@@ -249,7 +249,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704413190256</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="메서드 생성으로 코드 리팩토링">
+      <option name="closed" value="true" />
+      <created>1704588005118</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1704588005118</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -277,6 +285,7 @@
     <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
     <MESSAGE value="깃 잔디오류 수정" />
     <MESSAGE value="메서드1 공부" />
-    <option name="LAST_COMMIT_MESSAGE" value="메서드1 공부" />
+    <MESSAGE value="메서드 생성으로 코드 리팩토링" />
+    <option name="LAST_COMMIT_MESSAGE" value="메서드 생성으로 코드 리팩토링" />
   </component>
 </project>
