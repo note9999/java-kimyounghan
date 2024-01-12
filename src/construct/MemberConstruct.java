@@ -4,6 +4,14 @@ public class MemberConstruct {
     String name;
     int age;
     int grade;
+    // 추가
+
+    //this 규칙
+    // this()는 생성자 코드의 첫줄에만 작성가능
+    MemberConstruct(String name, int age) {
+        this(name,age,50); // 변경
+    }
+
 
     //생성자는 메서드와 비슷하지만 다음과 같은 차이가 있다.
     // 생성자의 이름은 클래스 이름과 같아야 한다. 따라서 첫 글자도 대문자로 시작한다.
