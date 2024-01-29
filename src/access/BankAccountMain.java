@@ -9,7 +9,7 @@ public class BankAccountMain {
         account.withdraw(8000);
         System.out.println(account.getBalance());
 
-        // static
+        // static 공부
 
     }
 }
